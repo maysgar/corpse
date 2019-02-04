@@ -3,7 +3,6 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
     Max Bublitz
     Joshua Aguilar-Wynn
     Ismael Garrido Mansoa
@@ -11,7 +10,6 @@
     Beau Walters
 # THANKS
 
-    <name>
     David Schaal
 
 # TECHNOLOGY COLOPHON
