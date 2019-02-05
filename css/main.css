@@ -96,19 +96,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-h1{
+
+   header {
+       grid-area: title;
+   }
+
+   h1{
   font-family: 'Lato', sans-serif;
   font-size: 30pt;
   text-align: center;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 20pt;
+section {
+    grid-area: story;
+    border: thick black solid;
+    border-radius: 20px;
+
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  margin: 0em;
+  padding: 0.5em 1em;
+}
 
+#paddingL {
+    grid-area: pL;
+}
 
+#paddingR {
+    grid-area: pR;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 100px auto;
+    grid-template-areas:
+    'pL title pR'
+    'pL story pR';
+}
 
 
 
