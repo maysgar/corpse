@@ -97,6 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+    color: white;
+}
+
+
    header {
        grid-area: title;
    }
@@ -109,8 +114,10 @@ textarea {
 
 section {
     grid-area: story;
-    border: thick black solid;
+    border: thick white solid;
     border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+
 
 }
 
@@ -130,6 +137,10 @@ p {
 }
 
 body {
+    background-image: url(../img/forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 100px auto;
