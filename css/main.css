@@ -135,8 +135,11 @@ p {
     grid-area: pR;
 }
 
+.bak {
+    background-image: url('../img/forest.jpg');
+}
 body {
-    background-image: url(../img/forest.jpg);
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
