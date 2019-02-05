@@ -135,11 +135,13 @@ p {
     grid-area: pR;
 }
 
-body {
-    background-image: url(../img/forest.jpg);
+.bak {
+    background-image: url('../img/forest.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 100px auto;
